@@ -1,0 +1,22 @@
+column,type,unit,meaning
+id,text,,Identifier for the advert. One per row.
+ref_code,text,,Internal catalogue reference for the car model. Many adverts share a ref_code.
+maker,text,,Manufacturer.
+first_reg,year,,Year the vehicle was first registered.
+listed_yr,year,,Year the advert was posted.
+listed_mo,integer,month,"Month the advert was posted, 1-12."
+odo,text,miles,Odometer reading at the time of the advert.
+disp,text,litres,"Engine displacement (cylinder capacity), written with an L suffix."
+gearbox,text,,Transmission type.
+fuel,text,,Fuel type.
+body,text,,Body style.
+doors,integer,count,Number of doors.
+seats,integer,count,Number of seats.
+paint,text,,Exterior colour.
+power_bhp,number,bhp,Engine power in brake horsepower.
+econ_mpg,text,UK mpg,"Manufacturer's combined fuel economy, with an mpg suffix."
+length_mm,number,millimetres,Overall length of the vehicle.
+annual_tax,text,£ / year,UK Vehicle Excise Duty - the annual road tax for this vehicle. See note 3.
+entry_price,number,£,"Catalogue list price of the cheapest new version of this model, in the vehicle's registration year."
+pct_of_list,number,ratio,price / entry_price.
+price,text,£,The advertised asking price. This is the target.
