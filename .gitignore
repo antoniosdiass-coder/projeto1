@@ -3,3 +3,5 @@
 # arquivos temporarios do Jupyter/Python
 .ipynb_checkpoints/
 __pycache__/
+# previsoes de demonstracao (arquivo de avaliacao simulado)
+demo_predicoes_*.csv
